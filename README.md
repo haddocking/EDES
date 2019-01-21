@@ -11,6 +11,7 @@
   Requires two input files: "index_RoGBS.dat" and "CVS_clustering.dat" (two example files are in the folder "example" - remove the first lines from the CVS_clustering.dat file before using   that file for the clustering!).
 
 Steps:
+
 -Check the formatting of the files needed (use the example files to check it);
 
 -Copy the files in the current working directory (they need to be in the same directory of the R_clustering_cut.sh file);
