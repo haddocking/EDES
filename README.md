@@ -13,7 +13,7 @@ Open your protein with VMD, then run the script from the Tk VMD console by typin
 source divide_into_lists.tcl
 ```
 Please be sure to edit, before running the script, the list of residues lining the binding site.
-You should put your selection in place of"-->INSERT HERE RESIDUES OF THE BINDING SITE <---".
+You should put your selection in place of "-->INSERT HERE RESIDUES OF THE BINDING SITE <---".
 
 
 In our example (file 1JEJ.pdb within the "example" folder), the binding site is "resid 18 213 238 240 188 189 191 195 214 237 261 267 269 272". The output will look like the following one:
