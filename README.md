@@ -1,7 +1,7 @@
 # EDES (Ensemble-Docking with Enhanced-sampling of pocket Shape)
 #
 #### - The files refer to the work available [here](https://www.biorxiv.org/content/early/2018/10/03/434092);
-#### - Some other useful pieces of information about the method can be found in this [tutorial](http://www.bonvinlab.org/education/biomolecular-simulations-2018/Metadynamics_tutorial/) used for the [BioExcel Summer School 2018](https://bioexcel.eu/services/training/summerschool2018/).
+#### - The overall idea behind the method, applied in the context of protein-ligand binding, can be found in this [tutorial](http://www.bonvinlab.org/education/biomolecular-simulations-2018/Metadynamics_tutorial/) used for the [BioExcel Summer School 2018](https://bioexcel.eu/services/training/summerschool2018/).
 #
 Collection of key scripts to generate the CIPs variables and to run the multi-step cluster analysis.
 
