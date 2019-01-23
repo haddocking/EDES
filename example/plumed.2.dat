@@ -1,0 +1,9 @@
+INCLUDE FILE=plumed-common.dat
+
+metad_cv3: METAD ARG=cv3 PACE=1000 HEIGHT=XXX SIGMA=YYY FILE=HILLS BIASFACTOR=ZZZ TEMP=310.0
+
+FLUSH STRIDE=10000
+PRINT STRIDE=1000 ARG=cv1,cv2,cv3,cv4 FILE=COLVAR
+PRINT ARG=cv3,metad_cv3.bias,lwall_cv3.bias,uwall_cv3.bias STRIDE=1000 FILE=BIAS
+PRINT ARG=lwall_cv1.bias,uwall_cv1.bias,lwall_cv2.bias,uwall_cv2.bias,lwall_cv3.bias,uwall_cv3.bias,lwall_cv4.bias,uwall_cv4.bias STRIDE=1000 FILE=WALLS_ALL
+
